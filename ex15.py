@@ -1,4 +1,4 @@
-#imports the argv module, so paramters can be pased through to the script
+#imports the sys module, so paramters can be pased through to the script from the commmand line via 'argv'
 from sys import argv
 #sets the parameters "script" and "filename" to be provided an argument at script run
 script, filename = argv
@@ -15,4 +15,4 @@ file_again =  input(">")
 #set the variable "txt_again" to the open() function, which calls the input funciton in line 14
 txt_again = open(file_again)
 #prints ">" to the terminal, and then prints the content of a file given by a user to the terminal. 
-##print(txt_again.read()) 
+#print(txt_again.read()) 
